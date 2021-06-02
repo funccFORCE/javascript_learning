@@ -5,7 +5,7 @@ To push daily learnings of javascript
 fetchAPI theory and code
 
 # DAY-2
-async and awaut functions use
+async and await functions use
 
 # DAY-3
 regular expressions or regex
