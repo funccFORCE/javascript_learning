@@ -39,3 +39,27 @@ console.log(result4);
 
 let result5=s.replace(reg,'shubham');
 console.log(result5);
+
+//metacgaractersmin javascript
+
+let regex=/aditi/;
+//lets look into some metacharacter symbols
+
+regex=/^harr/; //^ means expression will match if string starts with it
+regex=/rl$/; //$ at the end of the string means "string ends with"
+regex=/a.i/; //. means any one char can come between
+regex=/a*i/; //. means any 0 or more char can come between
+regex=/ad?iti?/; // char before ? with optional
+
+regex=/adi\*ti/; //it matches exactly * in the string
+let str="aditi is a bad girl";
+
+let result6=regex.exec(str);
+console.log("the result from exec is",result6);
+
+
+//character sets
+
+regex=/adi[a-z]i/;
+let result7=regex.exec(str);
+console.log(result7);
