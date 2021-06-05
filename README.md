@@ -12,3 +12,6 @@ regular expressions or regex
 
 # Day-4
 metacharacters and character sets in regular expressions
+
+# Day-5
+shorthand character classes using regex
