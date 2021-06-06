@@ -17,4 +17,4 @@ metacharacters and character sets in regular expressions
 shorthand character classes using regex
 
 # Day-6
-practice regex
+practice regex. From tommarow, will start making project in js
