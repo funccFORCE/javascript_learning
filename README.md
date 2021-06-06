@@ -15,3 +15,6 @@ metacharacters and character sets in regular expressions
 
 # Day-5
 shorthand character classes using regex
+
+# Day-6
+practice regex
