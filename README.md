@@ -19,5 +19,8 @@ shorthand character classes using regex
 # Day-6
 practice regex. From tommarow, will start making project in js
 
-#Day-7
+# Day-7
 Making a website completely using javascript
+
+# Day-8
+worked on that project and learnt about reactJS
