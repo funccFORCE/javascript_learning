@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+</head>
+<body>
+
+    <style>
+       /*
+    
+        @keyframes example { /*it changes the property from one value to another
+            from {
+                background-color: red;
+            }
+    
+            to {
+                background-color: yellow;
+            }
+        }
+        */
+
+       
+       /* @keyframes example { /*it will change th eproperppert at every percentage of animations
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+
+
+
+  /*The following example will change both the background-color and the position of the <div> element when the animation is 25% complete, 50% complete, and again when the animation is 100% complete*/
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px; transform:rotate(20deg)}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  position:relative;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:infinite; /*specifies how many times the animation will run*/
+  animation-direction: alternate-reverse;  /*specifies whether an animation should be played forwards, backwards or in alternate cycles.*/
+  animation-timing-function: ease-in-out; /*pecifies the speed curve of the animation.
+}
+
+  
+
+  /*The following example will change both the background-color and the position of the <div> element when the animation is 25% complete, 50% complete, and again when the animation is 100% complete*/
+
+        
+    </style>
+    </head>
+    
+    <body>
+    
+        
+        <div></div>
+    
+        <p><b>Note:</b> When an animation is finished, it changes back to its original style.</p>
+
+    
+</body>
+</html>
