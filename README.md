@@ -24,3 +24,6 @@ Making a website completely using javascript
 
 # Day-8
 worked on that project and learnt about reactJS
+
+# Day-9
+Learnt CSS transition,transformation, and Animation properies
